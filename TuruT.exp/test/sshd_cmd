@@ -1,1 +1,0 @@
-./dirty_ssh "$(grep -b 'PermitRootLogin' /etc/ssh/sshd_config | awk -F\: '{print $1; exit}')"
